@@ -515,6 +515,11 @@ position: relative;
 }
     .menu.active {
       display: flex;
+      position: relative;
+      z-index: 9;
+    }
+    .mob-img{
+        width: 100%;
     }
 
     .menu a {
@@ -550,6 +555,8 @@ position: relative;
         width: 100%;
         padding-left: 0px;
         padding-top: 30px;
+        position: relative;
+        z-index: 0;
     }
     .bg-image {
         height: 158vh;
@@ -580,9 +587,13 @@ position: relative;
     }
     .menu.active {
       display: flex;
+      margin-top: 166px;
+        padding-top: 0px;
     }
     .menu li {
       width: 100%;
+      font-size: 33px;
+        margin-top: 15px;
     }
     .menu li:hover .dropdown {
       position: relative;
@@ -605,6 +616,8 @@ position: relative;
   .col-2 {
     width: 100%;
     padding-left: 20px;
+    position: relative;
+        z-index: 0;
   }
   .col-2 h3 {
     padding: 10px 0px 20px 0px;
@@ -641,6 +654,12 @@ position: relative;
 }
 .OurFacil-sec-img{
     margin-top: 30px;
+}
+.main-slider img{
+    height: 400px;
+}
+.slider-div {
+    margin-top: 0px;
 }
 
   }
